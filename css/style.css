@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('../fonts/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #533738;
+    font-weight: 400;
+    background-color: #EFE6E4;
+}
+.visually-hidden{
+    display: none ;
+}
+a{
+    text-decoration: none;
+    color: #533738;
+}
+.site-navigation-item a{
+    font-size: 16px;
+    line-height: 20px;
+}
+.promo{
+    background: url("../img/promo.jpg") 
+}
+.promo-heading{
+font-size: 50px;
+line-height: 62px;
+}
+.promo-description{
+    font-size: 18px;
+    line-height: 30px;
+}
+.button{
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+background-color: #CC8B86;
+}
+h2{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.features-list-item{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.features{
+background-color:#8D7370;
+
+}
+.hover{
+    background-color: rgba(100, 72, 69, 0.8);
+    color:#FFFFFF;
+}
+h3{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    
+
+}
+.hover{
+    background-color: rgba(100, 72, 69, 0.8);
+    color:#FFFFFF;
+}
+a.works-link{
+    font-weight: 500;
+font-size: 30px;
+line-height: 37px;
+}
+ul,
+ol{
+    list-style-type: none;
+}
+.collective{
+background-color:#E2C4BA}
+.application-form{
+    background-color: #8D7370;
+
+}
+.main-footer-address{
+    font-style: normal;
+}

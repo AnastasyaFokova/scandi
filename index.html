@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Scandi</title>
 </head>
 <body>
     <header class="main-header">
         <nav class="main-nav">
             <a class="logo">
-                <img src="img/logo.png" width="90.55" height="25" alt="Логотип дизайн-студии Scandi">
+                <img src="img/logo.png" width="90" height="25" alt="Логотип дизайн-студии Scandi">
               </a>
               <ul class="site-navigation">
                 <li class="site-navigation-item">
@@ -38,14 +39,14 @@
         <h1 class="visually-hidden">Дизайн-студия Scandi</h1>
         <section class="promo">
             <h2 class="visually-hidden">Услуги студии</h2>
-            <p>Поможем сделать вашу квартиру уютнее</p>
-            <p>Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку </p>
-            <a href="#">Оставить заявку</a>
-            <img src="img/promo.jpg" width="1400" height="715" alt="Пример дизайна от Scandi">
+            <p class="promo-heading">Поможем сделать вашу квартиру уютнее</p>
+            <p class="promo-description">Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку </p>
+            <a href="#" class="button">Оставить заявку</a>
+            
           </section>
           <section class="about">
             <h2>О нас</h2>
-            <img src="img/about.jpg" width="444.54" height="465" alt="Текстиль - главное направление работы Scandi">
+            <img src="img/about.jpg" width="444" height="465" alt="Текстиль - главное направление работы Scandi">
             <p>Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то, что по-настоящему вдохновляет дизайнеров нашей студии.</p>
             <p>Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать: « Да! Это именно то, что действительно достойно моего дома!»</p>
 
@@ -53,9 +54,9 @@
           <section class="features">
             <h2 class="visually-hidden">Наши преимущества</h2>
             <ul class="features-list">
-                <li class="features-list-item"><p>5</p><p>лет опыта</p></li>
-                <li class="features-list-item"><p>100</p><p>проектов</p></li>
-                <li class="features-list-item"><p>10</p><p>наград</p></li>
+                <li class="features-list-item"><p>5<br>лет опыта</p></li>
+                <li class="features-list-item"><p>100<br>проектов</p></li>
+                <li class="features-list-item"><p>10<br>наград</p></li>
             </ul>
 
           </section>
@@ -64,8 +65,10 @@
             <ul class="works-list">
                 <li class="works-list-item">
                     <article>
-                        <h3><p>Квартира-студия</p><p>30 кв.м.</p></h3>
+                      <div class="hover">
+                        <h3>Квартира-студия<br>30 кв.м.</h3>
                         <p>В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
+                      </div>
                         <img src="img/works1.jpg" width="488" height="451" alt="Дизайн квартиры-студии">
                     </article>
 
@@ -93,7 +96,7 @@
                 </li>
 
             </ul>
-            <a href="#">Смотреть еще</a>
+            <a class="works-link" href="#">Смотреть еще</a>
 
           </section>
           <section class="collective">
@@ -150,6 +153,9 @@
           </section>
           <section class="reviews">
             <h2>Отзывы</h2>
+            <button class="revies-button prev" type="button">
+              <span class="visually-hidden">Предыдущий отзыв</span>
+            </button>
             <blockquote>
                 
                 <p>«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
@@ -162,7 +168,9 @@
             </blockquote>    
             <img src="img/reviews1.jpg" width="407" height="272" alt="Дизайн комнаты Анны Беловской">
             <img src="img/reviews2.jpg" width="407" height="272" alt="Дизайн кухни Анны Беловской">
-
+            <button class="revies-button next" type="button">
+              <span class="visually-hidden">Предыдущий отзыв</span>
+            </button>
           </section>
           <section class="application-form">
             <h2>Оставить заявку</h2>
@@ -173,7 +181,7 @@
           <label for="phone" class="visually-hidden">Телефон</label>
           <input type="tel" name="phone" id="phone" placeholder="Введите телефон">
           
-          <button type="submit">Оставить заявку</button>
+          <button type="submit" class="button">Оставить заявку</button>
         </form>
     
         <img src="img/map.jpg" width="590" height="624" alt="Карта">
@@ -181,8 +189,10 @@
           </section>
     </main>
     <footer class="main-footer">
+      <address class="main-footer-address">
         <a href="tel:79818574624">+7 (981) 857-46-24</a>
         <p>г. Санкт-петербург, ул. Большая Конюшенная, 19</p>
+      </address>
         <p>ИП Королёва А.А.</p>
     </footer>
     
